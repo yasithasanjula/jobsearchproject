@@ -2,6 +2,9 @@ import React from 'react'
 
 // Imported Icons ======>
 import {BiTimeFive} from 'react-icons/bi'
+
+//Imported Images ======>
+import logo1 from '../../Assets/logo1.png'
 const Jobs = () => {
   return (
     <div>
@@ -17,6 +20,17 @@ const Jobs = () => {
               <BiTimeFive/>Now  
             </span>
           </span>
+          <h6 className='text-[#ccc]'>Canada</h6>
+
+          <p className='text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px]
+          group-hover:text-white'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Enim dolorem!
+          </p>
+
+          <div className='company flex items-center gap-2'>
+            <img src={logo1} alt="Company Logo" className='w-[10%]' />
+          </div>
 
         </div>
       </div>
