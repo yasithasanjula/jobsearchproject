@@ -48,7 +48,7 @@ const Search = () => {
           </div>
         </form>
 
-
+        <br></br> <br></br>
         <div className='secDiv flex items-center gap-10 justify-center'>
 
           <div className='singleSearch flex items-center gap-2'>
@@ -100,7 +100,8 @@ const Search = () => {
 
           </div>
 
-          <span className='text-[#a1a1a1 cursor-pointer]'>Clear All</span>
+          <span className='text-[#a1a1a1] cursor-pointer '>Clear All</span>
+          
 
         </div>
         
