@@ -7,6 +7,11 @@ import {BiTimeFive} from 'react-icons/bi'
 import logo1 from '../../Assets/logo1.png'
 import logo2 from '../../Assets/logo2.png'
 import logo3 from '../../Assets/logo3.png'
+import logo4 from '../../Assets/logo4.png'
+import logo5 from '../../Assets/logo5.png'
+import logo6 from '../../Assets/logo6.png'
+import logo7 from '../../Assets/logo7.png'
+import logo8 from '../../Assets/logo8.png'
 
 
 //For all the jobs, we are going to use high order array method called map..
@@ -39,6 +44,52 @@ const Data =[
     location: 'Austria',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
     company: 'Web Tech Agency'
+  },
+  {
+    id:4,
+    image: logo4,
+    title: 'Ui/Ux Designer',
+    time: '10H',
+    location: 'Germany',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
+    company: 'Government'
+  },
+  
+  {
+    id:5,
+    image: logo5,
+    title: 'Product Designer',
+    time: 'Now',
+    location: 'Manchester',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
+    company: 'Newcastle'
+  },
+  {
+    id:6,
+    image: logo6,
+    title: 'Researcher',
+    time: '5H',
+    location: 'Norway',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
+    company: 'Nin Co.'
+  },
+  {
+    id:7,
+    image: logo7,
+    title: 'Lead Developer',
+    time: '10hrs',
+    location: 'Leeds',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
+    company: 'Nimeloi-UK'
+  },
+  {
+    id:8,
+    image: logo8,
+    title: 'Data Scientist',
+    time: '10hrs',
+    location: 'Austria',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Enim dolorem!',
+    company: 'Nome And Sons'
   }
 ]
 
@@ -81,6 +132,7 @@ const Jobs = () => {
                   </button>
 
               </div>
+              
             )
           })
         }
