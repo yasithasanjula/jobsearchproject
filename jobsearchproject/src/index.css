@@ -34,9 +34,9 @@ li:hover::before{
   cursor: pointer;
 }
 
-/*.card{
-  background: #000;
-}*/
+.card{
+  background: url(/src/Assests/testimonial-bg.png);
+}
 
 /* I have commented all this out because we shall see how it come into play at a Later 
 stage -- Be patient */ 

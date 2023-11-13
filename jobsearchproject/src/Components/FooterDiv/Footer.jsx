@@ -9,7 +9,7 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 const Footer = () => {
   return (
     <div className='footer p-[5rem] mb-4 bg-blueColor rounded-[10px] gap-8 grid 
-    grid-cols-5 m-auto items-center justify-center'>
+    grid-cols-5 m-auto items-start justify-center'>
 
       <div>
         <div className='logoDiv'>
@@ -29,10 +29,10 @@ const Footer = () => {
         </span>
         <div className='grid gap-3'>
 
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> About Us</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Features</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> News</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> FAQ</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> About Us</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Features</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> News</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> FAQ</li>
 
         </div>
 
@@ -45,10 +45,10 @@ const Footer = () => {
         </span>
         <div className='grid gap-3'>
 
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Account</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Support Center</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Feedback</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Contact Us</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Account</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Support Center</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Feedback</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Contact Us</li>
 
         </div>
 
@@ -61,10 +61,10 @@ const Footer = () => {
         </span>
         <div className='grid gap-3'>
 
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Events</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Promo</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Req Demo</li>
-          <li className='text-white oapcity-[.7] hover:opacity-[1]'> Careers</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Events</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Promo</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Req Demo</li>
+          <li className='text-white opacity-[.7] hover:opacity-[1]'> Careers</li>
 
         </div>
 
